@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "rando": "node .",
+        "start": "node index.js"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "js-md5": "^0.7.3",
+        "sharp": "^0.32.1"
+    },
+    "type": "module"
+}
