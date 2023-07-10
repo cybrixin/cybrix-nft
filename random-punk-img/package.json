@@ -1,6 +1,5 @@
 {
     "scripts": {
-        "rando": "node .",
         "start": "node index.js"
     },
     "main": "index.js",
