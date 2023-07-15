@@ -1,0 +1,42 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "cybrix-punks-dapp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "!/@(webp|jpg|jpeg|gif|png|svg|js|css|map|ico)/**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(webp|jpg|jpeg|gif|png|svg)",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "max-age=604800"
+        }]
+      },
+      {
+        "source": "**/*.@(css|js)",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "max-age=86400"
+        }]
+      },
+      {
+        "source": "**/*.@(ico)",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "max-age=31536000"
+        }]
+      }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
+}

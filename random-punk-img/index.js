@@ -697,15 +697,17 @@ else {
 }
 
 
-let idx = 33;
+let idx = parseInt(process.env.MAX ?? '30');
 const MAX = idx;
+
+
 
 const jobs = [];
 
 do {
-    idx--;
     jobs.push(getRandomAvatar(MAX - idx, 0));
-}while(idx > 0)
+    idx--;
+}while(idx >= 1) 
 
 Promise.all(jobs).then((reponses) => {
     reponses.forEach( (response) => {
