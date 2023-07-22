@@ -17,13 +17,5 @@ npm start
 
 There are many ipfs services out there to host our assets. But I found [Pinata](https://www.pinata.cloud/), the best among the lot. Its just like Google Drive and even allows us to host a full folder. At the time of writing, the free plan only allows 100 free files pinned at once.
 
-https://medium.com/@kaishinaw/connecting-metamask-with-a-local-hardhat-network-7d8cea604dc6
-31337
-http://127.0.0.1:8545/
 
-
-https://polygon-mumbai.g.alchemy.com/v2/YSaEg_UcCrzMAfC2MHTaNbUNa3xuGqpV
-80001
-MATIC
-Polygon Mumbai (Alchemy)
-
+> Many more steps... (Shortly updated)

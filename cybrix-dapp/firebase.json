@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": "build",
-    "site": "cybrix-punks-dapp",
+    "site": "web3-punks-nft-cybrix",
     "ignore": [
       "firebase.json",
       "**/.*",
